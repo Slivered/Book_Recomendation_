@@ -246,6 +246,15 @@ def map_genre(movie_genres):
 
     return genres_mapped if genres_mapped else None
 
+def map_movie_genre(movie_genres):
+    genres_list = movie_genres.split('|')
+
+    genres_mapped = list(set(map(lib.Movie_genre_dic.get, genres_list)))
+
+    genres_mapped = '|'.join([genre for genre in genres_mapped if genre is not None])
+
+    return genres_mapped if genres_mapped else None
+
 """
 Cleans a string by removing any numeric digits.
 
