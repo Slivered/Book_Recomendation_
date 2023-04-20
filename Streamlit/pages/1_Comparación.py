@@ -28,4 +28,4 @@ layout = {
           'margin': {'l': 40, 'r': 40, 't': 80, 'b': 40},
           'width': 800,
           'height': 400}
-st.plotly_chart(src.movievsbook(),config={'displayModeBar': False, 'staticPlot': True, 'scrollZoom': False, 'editable': False},use_container_width=True,layout=layout)
+st.plotly_chart(src.movievsbook(),config={'displayModeBar': False, 'staticPlot': False, 'scrollZoom': False, 'editable': False},use_container_width=True,layout=layout)
