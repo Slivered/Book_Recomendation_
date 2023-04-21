@@ -15,8 +15,9 @@ with col2a:
 
 st.markdown("- Películas: Drama, Acción, Comédia etc.")
 st.markdown("- Libros: Historia, Fantasía, Misterio etc.")
-st.markdown("- Estos resultados sugieren que la producción de contenido puede estar influenciada por las preferencias de los consumidores, y que las diferentes demandas en el mercado de libros y películas pueden tener un impacto en la diversidad y cantidad de contenido producido en cada género.")
-
+st.markdown("- Los generos mas usados en el mundo del cine y el literario son muy diferentes debido a sus diferentes naturalezas")
+st.markdown("- El cine es más accesible, es más visual, tiene soporte musical y requiere menos inverión de tiempo entre otros motivos")
+st.markdown("- La literatura es más imaginativa, requiere más paciencia y tradicionalmente son más didacticos")
 st.write("<h2 style='text-align: center;'>Top 3 por Género</h2>", unsafe_allow_html=True)
 "---"
 cola,colb,colc = st.columns([1,1,2])

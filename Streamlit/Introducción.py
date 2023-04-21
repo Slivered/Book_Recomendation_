@@ -6,8 +6,12 @@ import src.Resources as src
 st.write("<h1 style='text-align: center;'>El mundo del cine contra el mundo literario</h1>", unsafe_allow_html=True)
 st.image("../images/Book2.jpg",use_column_width=True)
 "---"
-st.write("<p style='text-align: left;'>La literatura y el cine son dos formas de arte populares que tienen como objetivo contar historias y transmitir emociones mediante diversas técnicas narrativas y visuales.</p>", unsafe_allow_html=True)
-st.write("<p style='text-align: left;'>Aunque ambos medios comparten esta similitud, también presentan diferencias significativas en cómo se cuentan sus historias. Personalmente, me interesa explorar esta comparación y explorar cuál de los dos medios cumple mejor este objetivo.</p>", unsafe_allow_html=True)
+st.write("<p style='text-align: left;'></p>", unsafe_allow_html=True)
+
+st.write("<p style='text-align: left;'>La literatura y el cine son dos formas de arte que han cautivado a la humanidad desde hace mucho tiempo. Ambas nos brindan la posibilidad de viajar a mundos imaginarios, conocer a personajes fascinantes y experimentar todo tipo de emociones.</p>", unsafe_allow_html=True)
+st.write("<p style='text-align: left;'>Personalmente siempre me han gustado mucho estos dos mundos, por eso decidí que quería hacer un análisis mas profundo en el.</p>", unsafe_allow_html=True)
+st.write("<p style='text-align: left;'>A lo largo de este streamlit vamos a ver cual de los dos mundos recibe mejores criticas de manera general, que genero es el más utilizado y también va a haber un recomendador de contenido en base a una pelicula o libro que te guste.</p>", unsafe_allow_html=True)
+
 "---"
 st.write("<h2 style='text-align: center;'>Metodología</h2>", unsafe_allow_html=True)
 st.markdown("- Recolección de datos: Como parte de este proyecto, realicé un scrapeo de datos tanto de Goodreads como de imdb para obtener información relevante sobre películas y libros.")

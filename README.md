@@ -1,29 +1,30 @@
 # The Art of Storytelling: A Collision of Cinema and the Literary World
+![Sauron](Images/Book2.jpg)
 ---
 
 <h1>Introduction</h1>
 
-This project is an evolution of a [previous work](https://github.com/Slivered/Proyecto_ETL) where i compared the top 1000 movies from imdb to their book counterparts, this time i expanded this project and decided to get as much information as posible for movies and books and analyse the data to make graphs, get some conclusions and aswell do a recomend system using some machine learning technics.
+This project is an evolution of a [previous work](https://github.com/Slivered/Proyecto_ETL) where I compared the top 1000 movies from IMDB to their book counterparts, this time I expanded this project and decided to get as much information as possible for movies and books and analyze the data to make graphs, get some conclusions and as well do a recommend system using some machine learning technics.
 
 <h2>Why?</h2>
 
 ---
 
-* I have always loved reading aswell as watching movies, so naturally i often compare movies and books together wondering whats better and what are the strengths and weaknesess of these two worlds.
+* I have always loved reading as well as watching movies, so naturally I often compare movies and books together, wondering what's better and what are the strengths and weaknesses of these two worlds.
 
-* Aswell this is my final project in [Ironhack](https://www.ironhack.com/es/en/madrid?utm_campaign=MAD_Spain_Madrid_Global_Search_Brand_EN&utm_source=google&utm_medium=cpc&utm_content=search-brand&utm_term=ironhack&gad=1&gclid=CjwKCAjw6IiiBhAOEiwALNqnceab3m3h_XKvK9R8wBY9Fqe7wq2IQcXMBB4g97pWWAeFcBVMWjBJFhoCY_EQAvD_BwE) Data Analytics Bootcamp and i found it interesting to end the bootcamp with the same project as i started it, showcasing everything i have learned.
+* As well, this is my final project in [Ironhack](https://www.ironhack.com/es/en/madrid?utm_campaign=MAD_Spain_Madrid_Global_Search_Brand_EN&utm_source=google&utm_medium=cpc&utm_content=search-brand&utm_term=ironhack&gad=1&gclid=CjwKCAjw6IiiBhAOEiwALNqnceab3m3h_XKvK9R8wBY9Fqe7wq2IQcXMBB4g97pWWAeFcBVMWjBJFhoCY_EQAvD_BwE) Data Analytics Bootcamp and I found it interesting to end the bootcamp with the same project as I started it, showcasing everything I have learned.
 
 ---
 
 <h2>Objectives</h2>
 
-* Get all of the data by myself without using any starting csv.
+* Get all the data by myself without using any starting csv.
 
 * Be able to compare movies and books and see clearly what has usually better rating.
 
 * Create a recomendation system using data scraped by myself.
 
-* Showcase everything i did in a streamlit.
+* Showcase everything I did in a streamlit.
 
 
 <h2>Methodology</h2>
@@ -32,7 +33,7 @@ This project is an evolution of a [previous work](https://github.com/Slivered/Pr
 
 * Data recollection 🔍
 
- I recollected the data using various Selenium functions to scrap Goodreads and imdbk, these functions receive a list of genres that you desire and the function will scrap these genres for you, after each genre the data will be save in a .pkl file.
+ I recollected the data using various Selenium functions to scrap Goodreads and imdb, these functions receive a list of genres that you desire and the function will scrap these genres for you, after each genre the data will be save in a .pkl file.
 
 
 
@@ -44,22 +45,22 @@ This project is an evolution of a [previous work](https://github.com/Slivered/Pr
 
 * Analysis 🤓
 
- I used various visualization tools make my graphs and aswell some functions to make interactive filters to analyse and explore the data more deeply.
-
+ I used various visualization tools to make my graphs and as well some functions to make interactive filters to analyze and explore the data more deeply.
 
 
 * Modeling 🖥
 
- And to end this project i did a recomendator system using machine learning techniques to give a recomendation based on the user input---
+ And to end this project I did a recommendation system using machine learning techniques to give a recommendation based on the user input.
+ 
 
 * Streamlit 📚
 
-Aswell i'll show my analysis, conclussions and model in a streamlit, it will be in spanish as im presenting this project to a spanish speaking audience but i'll make in the near future the same streamlit in english.
+As well, I'll show my analysis, conclusions and model in a streamlit, it will be in Spanish as I'm presenting this project to a Spanish-speaking audience, but I'll make in the near future the same streamlit in English.
 
 
 <h2>Thanks!!!!</h2>
 
-I thank all of the Ironhack team but specially want to thank:
+I thank all of the Ironhack team but I specially want to thank:
 * [Ana](https://www.linkedin.com/in/ana-garcia-garcia-090a5058/) for being the best teacher ever and having so much patience with me and Lin.
 * [Jean-Charles](https://www.linkedin.com/in/jeancharlesyamada/) for the classes you taught us and help me get through this last project.
 * [Cesar](https://www.linkedin.com/in/cesar-valle-iturriaga/) for allways being there to answer any questions we had.
