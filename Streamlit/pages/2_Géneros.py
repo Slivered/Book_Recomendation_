@@ -5,7 +5,7 @@ sys.path.append("../")
 import src.Resources as src
 import src.Library as lib
 
-st.write("<h1 style='text-align: center;'>Géneros más explotados.</h1>", unsafe_allow_html=True)
+st.write("<h1 style='text-align: center;'>Géneros más predominantes</h1>", unsafe_allow_html=True)
 
 col2a,col2b = st.columns(2)
 with col2b:
@@ -13,8 +13,12 @@ with col2b:
 with col2a:
     st.plotly_chart(src.genre_comp_movie())
 
-st.write("En la gráfica superior se observa una clara diferencia en la cantidad de películas y libros producidos en diferentes géneros. Se puede observar que los géneros de acción, drama y comedia son los más explotados en la producción de películas, mientras que en el caso de los libros, los géneros de hechos históricos, fantasía y misterio son los que tienen mayor cantidad de obras publicadas. Estos resultados sugieren que la producción de contenido puede estar influenciada por las preferencias de los consumidores, y que las diferentes demandas en el mercado de libros y películas pueden tener un impacto en la diversidad y cantidad de contenido producido en cada género.")
+st.markdown("- Películas: Drama, Acción, Comédia etc.")
+st.markdown("- Libros: Historia, Fantasía, Misterio etc.")
+st.markdown("- Estos resultados sugieren que la producción de contenido puede estar influenciada por las preferencias de los consumidores, y que las diferentes demandas en el mercado de libros y películas pueden tener un impacto en la diversidad y cantidad de contenido producido en cada género.")
 
+st.write("<h2 style='text-align: center;'>Top 3 por Género</h2>", unsafe_allow_html=True)
+"---"
 cola,colb,colc = st.columns([1,1,2])
 type = "Libro"
 with cola:

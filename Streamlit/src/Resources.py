@@ -87,11 +87,11 @@ def top(name,type):
     ord_list_sim = ord_matrix[indice]
     ord_list_sim2 = cos_sim_matrix[indice]
 
-    top_k = ord_list_sim[:100]
-    cosine_sims_top_k = ord_list_sim2[:100]
+    top_k = ord_list_sim
+    cosine_sims_top_k = ord_list_sim2
     
     top_k_df = df.loc[top_k].copy()
     top_k_df["similarity"] = cosine_sims_top_k
     top_k_df = top_k_df[top_k_df["Type"] == type ]
     top_k_df.drop(["Type","Title_id","similarity"],axis=1,inplace=True)
-    return top_k_df.head(3)
+    return top_k_df
