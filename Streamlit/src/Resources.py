@@ -33,7 +33,9 @@ def genre_comp_book():
     fig.update_layout(
         plot_bgcolor = "#eeebd3",
         paper_bgcolor = "#eeebd3",
-        font = dict(family = "Arial", color = "#255957"))
+        font = dict(family = "Arial", color = "#255957"),
+        xaxis_title="Género",
+        yaxis_title="Recuento")
     
     return fig
 
@@ -51,7 +53,9 @@ def genre_comp_movie():
     fig.update_layout(
         plot_bgcolor = "#eeebd3",
         paper_bgcolor = "#eeebd3",
-        font = dict(family = "Arial", color = "#255957"))
+        font = dict(family = "Arial", color = "#255957"),
+        xaxis_title="Género",
+        yaxis_title="Recuento")
     
     return fig
 
@@ -67,8 +71,10 @@ def movievsbook():
     fig.update_layout(
         plot_bgcolor = "#eeebd3",
         paper_bgcolor = "#eeebd3",
-        font = dict(family = "Arial", color = "#255957"))
-
+        font = dict(family = "Arial", color = "#255957"),
+        xaxis_title="Métrica",
+        yaxis_title="Nota")
+    
     return fig
 
 def top(name,type):

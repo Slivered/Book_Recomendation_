@@ -5,11 +5,14 @@ sys.path.append("../")
 import src.Resources as src
 import src.Library as lib
 
+st.write("<h1 style='text-align: center;'>Recomendador.</h1>", unsafe_allow_html=True)
 
-recomended = option = st.selectbox( "Which genre would you like to see? :",
+st.markdown( " Por último, presento mi sistema de recomendación basado en contenido, el cual compara libros y películas en busca de similitudes para recomendar contenido que el usuario quizás no haya consumido previamente. Una de las ventajas de este sistema es que no requiere un conocimiento profundo del usuario. Con tan solo proporcionar un ejemplo, el sistema puede ofrecer recomendaciones personalizadas de contenido adicional que puede ser de interés.")
+
+recomended = option = st.selectbox( "¿Que película/libro te gusta?",
     (lib.list_rec))
 type = st.radio(
-    "¿Quieres peliculas o libros?",
+    "¿Quieres una recomendación para películas o libros?",
     ("Pelicula","Libro"))
 if type == "Pelicula":
     type = "Movie"
